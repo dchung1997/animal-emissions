@@ -1,0 +1,10 @@
+body {
+  color: white;
+  font-family: "Arial";
+}
+
+h1 {
+  font-size: 3vw;
+  position: absolute;
+  margin-left: 1em;
+}
