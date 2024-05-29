@@ -1,11 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import * as d3 from "d3";
 
 import * as data from "../assets/data.json";
 
 import "./CirclePacking.css";
 
-function CirclePacking({ index }) {
+function CirclePacking() {
   const svgRef = useRef(null);
 
   const width = 928;

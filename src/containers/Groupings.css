@@ -1,0 +1,24 @@
+#groupings img {
+    position: absolute;
+    width: 60%;
+    height: auto;
+}
+
+#groupings .content {
+    position: absolute;
+    max-width: 500px;
+    margin-left: 50%;
+    margin-top: 20vh;
+}
+
+@media only screen and (max-width: 1200px) {
+    #groupings img {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #groupings img {
+        width: 100%;
+    }
+}
