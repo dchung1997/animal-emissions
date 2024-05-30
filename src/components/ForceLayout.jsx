@@ -11,10 +11,40 @@ function ForceLayout({data}) {
 
   useEffect(() =>{
     const svg = d3.select(svgRef.current);
-    const colorScale = [d3.schemeObservable10[0], d3.schemeObservable10[1], d3.schemeObservable10[2], d3.schemeObservable10[3]];
+    svg.selectAll("*").remove();
+
+    const regions = ['Europe', 'Asia', 'Africa', 'Americas', 'Oceania', 'Middle East'];
+    const colorScale = d3.scaleOrdinal().domain(regions).range([d3.schemeObservable10[0], d3.schemeObservable10[1], d3.schemeObservable10[2], 
+                                                                d3.schemeObservable10[3],d3.schemeObservable10[4], d3.schemeObservable10[5]])
+
     const xCenter = [100, 400, 700, 1000];
     const categoryScale = d3.scaleOrdinal().domain(['low', 'lower-middle', 'upper-middle', 'high']).range([0,1,2,3])
     const categoryScaleCenter = d3.scaleOrdinal().domain(['low', 'lower-middle', 'upper-middle', 'high']).range(xCenter)
+
+    function categorizeRegion(region) {
+        switch (region) {
+          case "East Asia/Southeast Asia":
+            return "Asia";
+          case "South Asia":
+            return "Asia";
+          case "Central Asia":            
+            return "Asia";
+          case "Middle East":
+            return "Middle East";
+          case "Africa":
+            return "Africa";
+          case "Central America":
+            return "Americas";  // Combine North, Central, and South America
+          case "North America":
+            return "Americas";  // Combine North, Central, and South America            
+          case "South America":
+            return "Americas";  // Combine North, Central, and South America
+          case "Europe":
+            return "Europe";
+          default:
+            return "Oceania";  // Unclassified regions go to Oceania
+        }
+      }
 
     if (data) {
         const filteredData = data.children.filter(function(d) {
@@ -26,9 +56,13 @@ function ForceLayout({data}) {
         });
         const scaleRadius = d3.scaleSqrt().domain(extent).range([5, 100]);
         const nodes = filteredData.map(function(d, i) {
+            const newRegion = categorizeRegion(d.region);
             return {
                 radius: scaleRadius(d.value),
-                category: categoryScale(d.category)
+                category: categoryScale(d.category),
+                region: newRegion, // Add the newly categorized region
+                country: d.name,
+                value: d.value
             }
         });
         
@@ -42,6 +76,13 @@ function ForceLayout({data}) {
             }))
             .on('tick', ticked);
         
+        svg.append("g")  
+            .call(d3.axisBottom(categoryScaleCenter).tickSize(0))
+            .attr("transform", `translate(0,${height-50})`)
+            .attr("stroke", "none")
+            .attr("fill", "white")               
+            .attr("font-size", "32px");       
+
         function ticked() {
             var u = svg.selectAll('circle')
                 .data(nodes)
@@ -50,21 +91,17 @@ function ForceLayout({data}) {
                     return d.radius;
                 })
                 .style('fill', function(d) {
-                    return colorScale[d.category];
+                    return colorScale(d.region);
                 })
                 .attr('cx', function(d) {
                     return d.x;
                 })
                 .attr('cy', function(d) {
                     return d.y + 330;
-                });
+                })
+                .append("title")
+                .text(function(d) { return d.region + ", " + d.country + " " + d.value + " kg."; });                
 
-            svg.append("g")
-            .attr("transform", `translate(0,${height-50})`)
-            .attr("stroke", "none")
-            .attr("fill", "white")     
-            .call(d3.axisBottom(categoryScaleCenter).tickSize(0))
-            .attr("font-size", "32px");                
         }
     }
   }, [data])

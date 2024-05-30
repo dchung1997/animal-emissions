@@ -243,13 +243,13 @@ function SolarSystem({index}) {
                 })
                 .attr("href", function(d,i) {
                   if (i == 0) {
-                    return greenEarth;
+                    return './greenEarth.svg';
                   } else if (i <= 2 && i >= 1) {
-                    return yellowEarth;
+                    return './yellowEarth.svg';
                   } else if (i == 3){
-                    return orangeEarth;
+                    return './orangeEarth.svg';
                   } else if (i > 3) {
-                    return redEarth;
+                    return './redEarth.svg';
                   }
                 });
     

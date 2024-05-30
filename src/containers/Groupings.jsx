@@ -4,6 +4,7 @@ import bird from "../assets/bird.png";
 import * as data from "../assets/data.json";
 import "./Groupings.css";
 import { useEffect } from "react";
+import Swatch from "../components/Swatch";
 
 function Groupings() {
   const [currentData, setCurrentData] = useState(null);
@@ -37,7 +38,7 @@ function Groupings() {
 
   return (
     <div id="groupings">
-      <img src={bird}></img>
+      <img src='./bird.png'></img>
       <div className="content">
         <p>
           Cras feugiat sagittis risus non pulvinar. Aliquam mollis tempus sem,
@@ -81,6 +82,7 @@ function Groupings() {
             </option>
           ))}
         </select>
+        <Swatch/>
         <ForceLayout data={currentData} />
       </div>
     </div>
