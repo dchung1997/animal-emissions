@@ -75,8 +75,8 @@ function Groupings() {
           maximus mauris odio egestas est.
         </p>
         <select value={selectedValue} onChange={handleChange}>
-          {options.map((option) => (
-            <option value={option.value} selected={option.value === selectedValue}>
+          {options.map((option, i) => (
+            <option value={option.value} defaultValue={selectedValue} key={i}>
               {option.label}
             </option>
           ))}

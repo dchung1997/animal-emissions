@@ -1,5 +1,11 @@
+#groupings {
+    position: relative;
+    height: 80vh;
+}
+
 #groupings img {
     position: absolute;
+    bottom: 0;
     width: 60%;
     height: auto;
 }
@@ -8,7 +14,6 @@
     position: absolute;
     max-width: 500px;
     margin-left: 50%;
-    margin-top: 20vh;
 }
 
 @media only screen and (max-width: 1200px) {
