@@ -1,0 +1,103 @@
+#production {
+    padding-top: 25vh;
+}
+
+#production .vis {
+    padding-top: 15vh;
+}
+
+#production h1 {
+    padding-top: 1em;
+}
+
+#production svg {
+    width: 100%;
+}
+
+#production svg text {
+    text-rendering: optimizeLegibility;
+}
+
+#production .efficency svg text {
+    font-size: 12px !important; 
+ }
+
+#production p {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2em;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    color:black;
+}
+
+.right {
+    left:80%;
+}
+
+@media (max-width: 1400px) {
+  
+    /* CSS */
+    #production .vis {
+        padding-top: 10vh;
+    }
+ 
+  }
+
+
+@media (max-width: 992px) {
+  
+    /* CSS */
+    #production .vis {
+        padding-top: 5vh;
+    }
+
+    .meatLayoutContainer svg {
+        height: 400px;
+    }
+
+    .efficency svg {
+        height: 200px;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    #production .vis {
+        padding-top: 5vh;
+    }
+
+    .meatLayoutContainer svg {
+        height: 400px;
+        margin-bottom: -2em;
+    }    
+
+
+    .efficency svg {
+        height: 150px;
+    }    
+
+  }
+
+  @media (max-width: 768px) and (max-height: 900px) {
+    .meatLayoutContainer svg {
+        height: 350px;
+        margin-bottom: -5em;
+    }    
+
+    .efficency svg {
+        height: 125px;
+    }    
+
+  }
+
+  @media (max-width: 768px) and (max-height: 768px) {
+    .meatLayoutContainer svg {
+        height: 300px;
+        margin-bottom: -3em;
+    }    
+
+    .efficency svg {
+        height: 100px;
+    }        
+  }  

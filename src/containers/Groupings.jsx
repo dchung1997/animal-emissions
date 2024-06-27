@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ForceLayout from "../components/ForceLayout";
-import bird from "../assets/bird.png";
+// import bird from "../assets/bird.png";
 import * as data from "../assets/data.json";
 import "./Groupings.css";
 import { useEffect } from "react";

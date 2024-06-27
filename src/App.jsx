@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import System from './containers/System';
-import Planets from './containers/Planets';
+import Production from './containers/Production';
+import Nutrition from './containers/Nutrition';
 import Groupings from './containers/Groupings';
 
 import './App.css';
@@ -13,10 +14,10 @@ function App() {
 
   return (
     <>
-      <h1>Burning Meat: 1.5 - 2°C by 2100</h1>
+      <h1>Burning Meat: Living in a 3°C - 4°C World by 2100</h1>
       <System/>
-      <Planets/>
-      <Groupings/>
+      <Production/>
+      <Nutrition/>
     </>
   )
 }

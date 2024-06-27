@@ -1,0 +1,601 @@
+Region,Item,Year,Scenario,Value
+East Asia/Pacific,Raising of buffaloes,2012,Business As Usual,171.0
+East Asia/Pacific,Raising of buffaloes,2012,Stratified Societies,171.0
+East Asia/Pacific,Raising of buffaloes,2012,Toward Sustainability,171.0
+East Asia/Pacific,Raising of buffaloes,2030,Business As Usual,186.0
+East Asia/Pacific,Raising of buffaloes,2030,Stratified Societies,195.5
+East Asia/Pacific,Raising of buffaloes,2030,Toward Sustainability,184.0
+East Asia/Pacific,Raising of buffaloes,2035,Business As Usual,188.5
+East Asia/Pacific,Raising of buffaloes,2035,Stratified Societies,197.5
+East Asia/Pacific,Raising of buffaloes,2035,Toward Sustainability,188.0
+East Asia/Pacific,Raising of buffaloes,2040,Business As Usual,190.5
+East Asia/Pacific,Raising of buffaloes,2040,Stratified Societies,199.5
+East Asia/Pacific,Raising of buffaloes,2040,Toward Sustainability,192.5
+East Asia/Pacific,Raising of buffaloes,2050,Business As Usual,195.5
+East Asia/Pacific,Raising of buffaloes,2050,Stratified Societies,202.5
+East Asia/Pacific,Raising of buffaloes,2050,Toward Sustainability,203.0
+East Asia/Pacific,Raising of cattle,2012,Business As Usual,150.0
+East Asia/Pacific,Raising of cattle,2012,Stratified Societies,150.0
+East Asia/Pacific,Raising of cattle,2012,Toward Sustainability,150.0
+East Asia/Pacific,Raising of cattle,2030,Business As Usual,179.0
+East Asia/Pacific,Raising of cattle,2030,Stratified Societies,187.0
+East Asia/Pacific,Raising of cattle,2030,Toward Sustainability,184.0
+East Asia/Pacific,Raising of cattle,2035,Business As Usual,183.0
+East Asia/Pacific,Raising of cattle,2035,Stratified Societies,192.5
+East Asia/Pacific,Raising of cattle,2035,Toward Sustainability,191.0
+East Asia/Pacific,Raising of cattle,2040,Business As Usual,187.0
+East Asia/Pacific,Raising of cattle,2040,Stratified Societies,198.5
+East Asia/Pacific,Raising of cattle,2040,Toward Sustainability,197.5
+East Asia/Pacific,Raising of cattle,2050,Business As Usual,196.5
+East Asia/Pacific,Raising of cattle,2050,Stratified Societies,208.5
+East Asia/Pacific,Raising of cattle,2050,Toward Sustainability,212.0
+East Asia/Pacific,Raising of goats,2012,Business As Usual,14.0
+East Asia/Pacific,Raising of goats,2012,Stratified Societies,14.0
+East Asia/Pacific,Raising of goats,2012,Toward Sustainability,14.0
+East Asia/Pacific,Raising of goats,2030,Business As Usual,15.0
+East Asia/Pacific,Raising of goats,2030,Stratified Societies,16.0
+East Asia/Pacific,Raising of goats,2030,Toward Sustainability,15.0
+East Asia/Pacific,Raising of goats,2035,Business As Usual,15.0
+East Asia/Pacific,Raising of goats,2035,Stratified Societies,16.0
+East Asia/Pacific,Raising of goats,2035,Toward Sustainability,15.0
+East Asia/Pacific,Raising of goats,2040,Business As Usual,15.0
+East Asia/Pacific,Raising of goats,2040,Stratified Societies,16.0
+East Asia/Pacific,Raising of goats,2040,Toward Sustainability,16.0
+East Asia/Pacific,Raising of goats,2050,Business As Usual,16.0
+East Asia/Pacific,Raising of goats,2050,Stratified Societies,16.0
+East Asia/Pacific,Raising of goats,2050,Toward Sustainability,16.0
+East Asia/Pacific,Raising of pigs,2012,Business As Usual,54.5
+East Asia/Pacific,Raising of pigs,2012,Stratified Societies,54.5
+East Asia/Pacific,Raising of pigs,2012,Toward Sustainability,54.5
+East Asia/Pacific,Raising of pigs,2030,Business As Usual,62.0
+East Asia/Pacific,Raising of pigs,2030,Stratified Societies,63.0
+East Asia/Pacific,Raising of pigs,2030,Toward Sustainability,63.0
+East Asia/Pacific,Raising of pigs,2035,Business As Usual,63.0
+East Asia/Pacific,Raising of pigs,2035,Stratified Societies,65.0
+East Asia/Pacific,Raising of pigs,2035,Toward Sustainability,64.5
+East Asia/Pacific,Raising of pigs,2040,Business As Usual,64.0
+East Asia/Pacific,Raising of pigs,2040,Stratified Societies,66.5
+East Asia/Pacific,Raising of pigs,2040,Toward Sustainability,66.0
+East Asia/Pacific,Raising of pigs,2050,Business As Usual,66.0
+East Asia/Pacific,Raising of pigs,2050,Stratified Societies,70.0
+East Asia/Pacific,Raising of pigs,2050,Toward Sustainability,69.0
+East Asia/Pacific,Raising of poultry,2012,Business As Usual,1.251
+East Asia/Pacific,Raising of poultry,2012,Stratified Societies,1.251
+East Asia/Pacific,Raising of poultry,2012,Toward Sustainability,1.251
+East Asia/Pacific,Raising of poultry,2030,Business As Usual,1.4024999999999999
+East Asia/Pacific,Raising of poultry,2030,Stratified Societies,1.4515
+East Asia/Pacific,Raising of poultry,2030,Toward Sustainability,1.403
+East Asia/Pacific,Raising of poultry,2035,Business As Usual,1.4215
+East Asia/Pacific,Raising of poultry,2035,Stratified Societies,1.48
+East Asia/Pacific,Raising of poultry,2035,Toward Sustainability,1.4340000000000002
+East Asia/Pacific,Raising of poultry,2040,Business As Usual,1.441
+East Asia/Pacific,Raising of poultry,2040,Stratified Societies,1.5070000000000001
+East Asia/Pacific,Raising of poultry,2040,Toward Sustainability,1.4675
+East Asia/Pacific,Raising of poultry,2050,Business As Usual,1.483
+East Asia/Pacific,Raising of poultry,2050,Stratified Societies,1.5655000000000001
+East Asia/Pacific,Raising of poultry,2050,Toward Sustainability,1.5375
+East Asia/Pacific,Raising of sheep,2012,Business As Usual,14.0
+East Asia/Pacific,Raising of sheep,2012,Stratified Societies,14.0
+East Asia/Pacific,Raising of sheep,2012,Toward Sustainability,14.0
+East Asia/Pacific,Raising of sheep,2030,Business As Usual,15.0
+East Asia/Pacific,Raising of sheep,2030,Stratified Societies,16.0
+East Asia/Pacific,Raising of sheep,2030,Toward Sustainability,14.0
+East Asia/Pacific,Raising of sheep,2035,Business As Usual,15.0
+East Asia/Pacific,Raising of sheep,2035,Stratified Societies,16.0
+East Asia/Pacific,Raising of sheep,2035,Toward Sustainability,15.0
+East Asia/Pacific,Raising of sheep,2040,Business As Usual,15.0
+East Asia/Pacific,Raising of sheep,2040,Stratified Societies,16.0
+East Asia/Pacific,Raising of sheep,2040,Toward Sustainability,15.0
+East Asia/Pacific,Raising of sheep,2050,Business As Usual,15.0
+East Asia/Pacific,Raising of sheep,2050,Stratified Societies,16.0
+East Asia/Pacific,Raising of sheep,2050,Toward Sustainability,16.0
+Europe/Central Asia,Raising of buffaloes,2012,Business As Usual,178.5
+Europe/Central Asia,Raising of buffaloes,2012,Stratified Societies,178.5
+Europe/Central Asia,Raising of buffaloes,2012,Toward Sustainability,178.5
+Europe/Central Asia,Raising of buffaloes,2030,Business As Usual,200.5
+Europe/Central Asia,Raising of buffaloes,2030,Stratified Societies,190.0
+Europe/Central Asia,Raising of buffaloes,2030,Toward Sustainability,211.0
+Europe/Central Asia,Raising of buffaloes,2035,Business As Usual,203.5
+Europe/Central Asia,Raising of buffaloes,2035,Stratified Societies,194.5
+Europe/Central Asia,Raising of buffaloes,2035,Toward Sustainability,214.0
+Europe/Central Asia,Raising of buffaloes,2040,Business As Usual,207.0
+Europe/Central Asia,Raising of buffaloes,2040,Stratified Societies,202.5
+Europe/Central Asia,Raising of buffaloes,2040,Toward Sustainability,216.0
+Europe/Central Asia,Raising of buffaloes,2050,Business As Usual,217.0
+Europe/Central Asia,Raising of buffaloes,2050,Stratified Societies,223.5
+Europe/Central Asia,Raising of buffaloes,2050,Toward Sustainability,224.0
+Europe/Central Asia,Raising of cattle,2012,Business As Usual,162.0
+Europe/Central Asia,Raising of cattle,2012,Stratified Societies,162.0
+Europe/Central Asia,Raising of cattle,2012,Toward Sustainability,162.0
+Europe/Central Asia,Raising of cattle,2030,Business As Usual,196.0
+Europe/Central Asia,Raising of cattle,2030,Stratified Societies,186.0
+Europe/Central Asia,Raising of cattle,2030,Toward Sustainability,207.0
+Europe/Central Asia,Raising of cattle,2035,Business As Usual,201.0
+Europe/Central Asia,Raising of cattle,2035,Stratified Societies,194.0
+Europe/Central Asia,Raising of cattle,2035,Toward Sustainability,213.0
+Europe/Central Asia,Raising of cattle,2040,Business As Usual,207.0
+Europe/Central Asia,Raising of cattle,2040,Stratified Societies,206.0
+Europe/Central Asia,Raising of cattle,2040,Toward Sustainability,216.0
+Europe/Central Asia,Raising of cattle,2050,Business As Usual,221.0
+Europe/Central Asia,Raising of cattle,2050,Stratified Societies,233.0
+Europe/Central Asia,Raising of cattle,2050,Toward Sustainability,226.0
+Europe/Central Asia,Raising of goats,2012,Business As Usual,16.0
+Europe/Central Asia,Raising of goats,2012,Stratified Societies,16.0
+Europe/Central Asia,Raising of goats,2012,Toward Sustainability,16.0
+Europe/Central Asia,Raising of goats,2030,Business As Usual,18.0
+Europe/Central Asia,Raising of goats,2030,Stratified Societies,18.0
+Europe/Central Asia,Raising of goats,2030,Toward Sustainability,18.0
+Europe/Central Asia,Raising of goats,2035,Business As Usual,18.0
+Europe/Central Asia,Raising of goats,2035,Stratified Societies,18.0
+Europe/Central Asia,Raising of goats,2035,Toward Sustainability,18.0
+Europe/Central Asia,Raising of goats,2040,Business As Usual,18.0
+Europe/Central Asia,Raising of goats,2040,Stratified Societies,18.0
+Europe/Central Asia,Raising of goats,2040,Toward Sustainability,18.0
+Europe/Central Asia,Raising of goats,2050,Business As Usual,19.0
+Europe/Central Asia,Raising of goats,2050,Stratified Societies,19.0
+Europe/Central Asia,Raising of goats,2050,Toward Sustainability,19.0
+Europe/Central Asia,Raising of pigs,2012,Business As Usual,72.5
+Europe/Central Asia,Raising of pigs,2012,Stratified Societies,72.5
+Europe/Central Asia,Raising of pigs,2012,Toward Sustainability,72.5
+Europe/Central Asia,Raising of pigs,2030,Business As Usual,79.5
+Europe/Central Asia,Raising of pigs,2030,Stratified Societies,83.5
+Europe/Central Asia,Raising of pigs,2030,Toward Sustainability,79.0
+Europe/Central Asia,Raising of pigs,2035,Business As Usual,80.5
+Europe/Central Asia,Raising of pigs,2035,Stratified Societies,84.5
+Europe/Central Asia,Raising of pigs,2035,Toward Sustainability,80.0
+Europe/Central Asia,Raising of pigs,2040,Business As Usual,81.5
+Europe/Central Asia,Raising of pigs,2040,Stratified Societies,85.5
+Europe/Central Asia,Raising of pigs,2040,Toward Sustainability,82.0
+Europe/Central Asia,Raising of pigs,2050,Business As Usual,82.5
+Europe/Central Asia,Raising of pigs,2050,Stratified Societies,87.0
+Europe/Central Asia,Raising of pigs,2050,Toward Sustainability,85.0
+Europe/Central Asia,Raising of poultry,2012,Business As Usual,1.4
+Europe/Central Asia,Raising of poultry,2012,Stratified Societies,1.4
+Europe/Central Asia,Raising of poultry,2012,Toward Sustainability,1.4
+Europe/Central Asia,Raising of poultry,2030,Business As Usual,1.541
+Europe/Central Asia,Raising of poultry,2030,Stratified Societies,1.62
+Europe/Central Asia,Raising of poultry,2030,Toward Sustainability,1.517
+Europe/Central Asia,Raising of poultry,2035,Business As Usual,1.561
+Europe/Central Asia,Raising of poultry,2035,Stratified Societies,1.645
+Europe/Central Asia,Raising of poultry,2035,Toward Sustainability,1.552
+Europe/Central Asia,Raising of poultry,2040,Business As Usual,1.58
+Europe/Central Asia,Raising of poultry,2040,Stratified Societies,1.664
+Europe/Central Asia,Raising of poultry,2040,Toward Sustainability,1.592
+Europe/Central Asia,Raising of poultry,2050,Business As Usual,1.616
+Europe/Central Asia,Raising of poultry,2050,Stratified Societies,1.703
+Europe/Central Asia,Raising of poultry,2050,Toward Sustainability,1.652
+Europe/Central Asia,Raising of sheep,2012,Business As Usual,16.0
+Europe/Central Asia,Raising of sheep,2012,Stratified Societies,16.0
+Europe/Central Asia,Raising of sheep,2012,Toward Sustainability,16.0
+Europe/Central Asia,Raising of sheep,2030,Business As Usual,19.0
+Europe/Central Asia,Raising of sheep,2030,Stratified Societies,18.0
+Europe/Central Asia,Raising of sheep,2030,Toward Sustainability,20.0
+Europe/Central Asia,Raising of sheep,2035,Business As Usual,20.0
+Europe/Central Asia,Raising of sheep,2035,Stratified Societies,19.0
+Europe/Central Asia,Raising of sheep,2035,Toward Sustainability,21.0
+Europe/Central Asia,Raising of sheep,2040,Business As Usual,20.0
+Europe/Central Asia,Raising of sheep,2040,Stratified Societies,20.0
+Europe/Central Asia,Raising of sheep,2040,Toward Sustainability,21.0
+Europe/Central Asia,Raising of sheep,2050,Business As Usual,21.0
+Europe/Central Asia,Raising of sheep,2050,Stratified Societies,21.0
+Europe/Central Asia,Raising of sheep,2050,Toward Sustainability,22.0
+High-income,Raising of buffaloes,2012,Business As Usual,219.5
+High-income,Raising of buffaloes,2012,Stratified Societies,219.5
+High-income,Raising of buffaloes,2012,Toward Sustainability,219.5
+High-income,Raising of buffaloes,2030,Business As Usual,234.5
+High-income,Raising of buffaloes,2030,Stratified Societies,252.5
+High-income,Raising of buffaloes,2030,Toward Sustainability,224.0
+High-income,Raising of buffaloes,2035,Business As Usual,237.0
+High-income,Raising of buffaloes,2035,Stratified Societies,253.5
+High-income,Raising of buffaloes,2035,Toward Sustainability,223.0
+High-income,Raising of buffaloes,2040,Business As Usual,239.5
+High-income,Raising of buffaloes,2040,Stratified Societies,253.0
+High-income,Raising of buffaloes,2040,Toward Sustainability,222.5
+High-income,Raising of buffaloes,2050,Business As Usual,247.5
+High-income,Raising of buffaloes,2050,Stratified Societies,256.5
+High-income,Raising of buffaloes,2050,Toward Sustainability,223.5
+High-income,Raising of cattle,2012,Business As Usual,263.0
+High-income,Raising of cattle,2012,Stratified Societies,263.0
+High-income,Raising of cattle,2012,Toward Sustainability,263.0
+High-income,Raising of cattle,2030,Business As Usual,294.0
+High-income,Raising of cattle,2030,Stratified Societies,298.0
+High-income,Raising of cattle,2030,Toward Sustainability,289.0
+High-income,Raising of cattle,2035,Business As Usual,299.0
+High-income,Raising of cattle,2035,Stratified Societies,304.0
+High-income,Raising of cattle,2035,Toward Sustainability,289.0
+High-income,Raising of cattle,2040,Business As Usual,305.5
+High-income,Raising of cattle,2040,Stratified Societies,311.0
+High-income,Raising of cattle,2040,Toward Sustainability,288.0
+High-income,Raising of cattle,2050,Business As Usual,321.5
+High-income,Raising of cattle,2050,Stratified Societies,337.0
+High-income,Raising of cattle,2050,Toward Sustainability,288.5
+High-income,Raising of goats,2012,Business As Usual,14.0
+High-income,Raising of goats,2012,Stratified Societies,14.0
+High-income,Raising of goats,2012,Toward Sustainability,14.0
+High-income,Raising of goats,2030,Business As Usual,15.5
+High-income,Raising of goats,2030,Stratified Societies,15.5
+High-income,Raising of goats,2030,Toward Sustainability,16.0
+High-income,Raising of goats,2035,Business As Usual,16.0
+High-income,Raising of goats,2035,Stratified Societies,16.0
+High-income,Raising of goats,2035,Toward Sustainability,16.0
+High-income,Raising of goats,2040,Business As Usual,16.5
+High-income,Raising of goats,2040,Stratified Societies,16.5
+High-income,Raising of goats,2040,Toward Sustainability,16.0
+High-income,Raising of goats,2050,Business As Usual,17.5
+High-income,Raising of goats,2050,Stratified Societies,17.5
+High-income,Raising of goats,2050,Toward Sustainability,16.0
+High-income,Raising of pigs,2012,Business As Usual,83.0
+High-income,Raising of pigs,2012,Stratified Societies,83.0
+High-income,Raising of pigs,2012,Toward Sustainability,83.0
+High-income,Raising of pigs,2030,Business As Usual,89.0
+High-income,Raising of pigs,2030,Stratified Societies,95.0
+High-income,Raising of pigs,2030,Toward Sustainability,83.0
+High-income,Raising of pigs,2035,Business As Usual,89.0
+High-income,Raising of pigs,2035,Stratified Societies,96.0
+High-income,Raising of pigs,2035,Toward Sustainability,82.0
+High-income,Raising of pigs,2040,Business As Usual,90.0
+High-income,Raising of pigs,2040,Stratified Societies,95.0
+High-income,Raising of pigs,2040,Toward Sustainability,82.0
+High-income,Raising of pigs,2050,Business As Usual,92.0
+High-income,Raising of pigs,2050,Stratified Societies,95.0
+High-income,Raising of pigs,2050,Toward Sustainability,82.0
+High-income,Raising of poultry,2012,Business As Usual,1.7305000000000001
+High-income,Raising of poultry,2012,Stratified Societies,1.7305000000000001
+High-income,Raising of poultry,2012,Toward Sustainability,1.7305000000000001
+High-income,Raising of poultry,2030,Business As Usual,1.82
+High-income,Raising of poultry,2030,Stratified Societies,1.97
+High-income,Raising of poultry,2030,Toward Sustainability,1.6915
+High-income,Raising of poultry,2035,Business As Usual,1.83
+High-income,Raising of poultry,2035,Stratified Societies,1.972
+High-income,Raising of poultry,2035,Toward Sustainability,1.674
+High-income,Raising of poultry,2040,Business As Usual,1.842
+High-income,Raising of poultry,2040,Stratified Societies,1.9585
+High-income,Raising of poultry,2040,Toward Sustainability,1.6644999999999999
+High-income,Raising of poultry,2050,Business As Usual,1.875
+High-income,Raising of poultry,2050,Stratified Societies,1.9344999999999999
+High-income,Raising of poultry,2050,Toward Sustainability,1.6585
+High-income,Raising of sheep,2012,Business As Usual,19.0
+High-income,Raising of sheep,2012,Stratified Societies,19.0
+High-income,Raising of sheep,2012,Toward Sustainability,19.0
+High-income,Raising of sheep,2030,Business As Usual,21.0
+High-income,Raising of sheep,2030,Stratified Societies,22.5
+High-income,Raising of sheep,2030,Toward Sustainability,19.0
+High-income,Raising of sheep,2035,Business As Usual,21.0
+High-income,Raising of sheep,2035,Stratified Societies,22.5
+High-income,Raising of sheep,2035,Toward Sustainability,19.0
+High-income,Raising of sheep,2040,Business As Usual,21.0
+High-income,Raising of sheep,2040,Stratified Societies,22.5
+High-income,Raising of sheep,2040,Toward Sustainability,19.0
+High-income,Raising of sheep,2050,Business As Usual,22.0
+High-income,Raising of sheep,2050,Stratified Societies,22.0
+High-income,Raising of sheep,2050,Toward Sustainability,19.0
+Latin America/Caribbean,Raising of cattle,2012,Business As Usual,197.0
+Latin America/Caribbean,Raising of cattle,2012,Stratified Societies,197.0
+Latin America/Caribbean,Raising of cattle,2012,Toward Sustainability,197.0
+Latin America/Caribbean,Raising of cattle,2030,Business As Usual,220.5
+Latin America/Caribbean,Raising of cattle,2030,Stratified Societies,235.5
+Latin America/Caribbean,Raising of cattle,2030,Toward Sustainability,210.0
+Latin America/Caribbean,Raising of cattle,2035,Business As Usual,224.0
+Latin America/Caribbean,Raising of cattle,2035,Stratified Societies,240.0
+Latin America/Caribbean,Raising of cattle,2035,Toward Sustainability,213.0
+Latin America/Caribbean,Raising of cattle,2040,Business As Usual,227.5
+Latin America/Caribbean,Raising of cattle,2040,Stratified Societies,242.5
+Latin America/Caribbean,Raising of cattle,2040,Toward Sustainability,217.5
+Latin America/Caribbean,Raising of cattle,2050,Business As Usual,235.5
+Latin America/Caribbean,Raising of cattle,2050,Stratified Societies,249.0
+Latin America/Caribbean,Raising of cattle,2050,Toward Sustainability,228.0
+Latin America/Caribbean,Raising of goats,2012,Business As Usual,13.0
+Latin America/Caribbean,Raising of goats,2012,Stratified Societies,13.0
+Latin America/Caribbean,Raising of goats,2012,Toward Sustainability,13.0
+Latin America/Caribbean,Raising of goats,2030,Business As Usual,14.0
+Latin America/Caribbean,Raising of goats,2030,Stratified Societies,15.0
+Latin America/Caribbean,Raising of goats,2030,Toward Sustainability,14.0
+Latin America/Caribbean,Raising of goats,2035,Business As Usual,14.0
+Latin America/Caribbean,Raising of goats,2035,Stratified Societies,15.0
+Latin America/Caribbean,Raising of goats,2035,Toward Sustainability,14.0
+Latin America/Caribbean,Raising of goats,2040,Business As Usual,14.0
+Latin America/Caribbean,Raising of goats,2040,Stratified Societies,15.0
+Latin America/Caribbean,Raising of goats,2040,Toward Sustainability,14.0
+Latin America/Caribbean,Raising of goats,2050,Business As Usual,15.0
+Latin America/Caribbean,Raising of goats,2050,Stratified Societies,15.0
+Latin America/Caribbean,Raising of goats,2050,Toward Sustainability,15.0
+Latin America/Caribbean,Raising of pigs,2012,Business As Usual,67.0
+Latin America/Caribbean,Raising of pigs,2012,Stratified Societies,67.0
+Latin America/Caribbean,Raising of pigs,2012,Toward Sustainability,67.0
+Latin America/Caribbean,Raising of pigs,2030,Business As Usual,72.5
+Latin America/Caribbean,Raising of pigs,2030,Stratified Societies,78.0
+Latin America/Caribbean,Raising of pigs,2030,Toward Sustainability,68.5
+Latin America/Caribbean,Raising of pigs,2035,Business As Usual,73.0
+Latin America/Caribbean,Raising of pigs,2035,Stratified Societies,78.0
+Latin America/Caribbean,Raising of pigs,2035,Toward Sustainability,68.5
+Latin America/Caribbean,Raising of pigs,2040,Business As Usual,74.0
+Latin America/Caribbean,Raising of pigs,2040,Stratified Societies,78.0
+Latin America/Caribbean,Raising of pigs,2040,Toward Sustainability,70.0
+Latin America/Caribbean,Raising of pigs,2050,Business As Usual,76.5
+Latin America/Caribbean,Raising of pigs,2050,Stratified Societies,76.5
+Latin America/Caribbean,Raising of pigs,2050,Toward Sustainability,73.5
+Latin America/Caribbean,Raising of poultry,2012,Business As Usual,1.7225000000000001
+Latin America/Caribbean,Raising of poultry,2012,Stratified Societies,1.7225000000000001
+Latin America/Caribbean,Raising of poultry,2012,Toward Sustainability,1.7225000000000001
+Latin America/Caribbean,Raising of poultry,2030,Business As Usual,1.8435000000000001
+Latin America/Caribbean,Raising of poultry,2030,Stratified Societies,2.009
+Latin America/Caribbean,Raising of poultry,2030,Toward Sustainability,1.7149999999999999
+Latin America/Caribbean,Raising of poultry,2035,Business As Usual,1.855
+Latin America/Caribbean,Raising of poultry,2035,Stratified Societies,2.0140000000000002
+Latin America/Caribbean,Raising of poultry,2035,Toward Sustainability,1.7160000000000002
+Latin America/Caribbean,Raising of poultry,2040,Business As Usual,1.8665
+Latin America/Caribbean,Raising of poultry,2040,Stratified Societies,1.999
+Latin America/Caribbean,Raising of poultry,2040,Toward Sustainability,1.7305
+Latin America/Caribbean,Raising of poultry,2050,Business As Usual,1.8940000000000001
+Latin America/Caribbean,Raising of poultry,2050,Stratified Societies,1.9535
+Latin America/Caribbean,Raising of poultry,2050,Toward Sustainability,1.7734999999999999
+Latin America/Caribbean,Raising of sheep,2012,Business As Usual,14.0
+Latin America/Caribbean,Raising of sheep,2012,Stratified Societies,14.0
+Latin America/Caribbean,Raising of sheep,2012,Toward Sustainability,14.0
+Latin America/Caribbean,Raising of sheep,2030,Business As Usual,16.0
+Latin America/Caribbean,Raising of sheep,2030,Stratified Societies,17.0
+Latin America/Caribbean,Raising of sheep,2030,Toward Sustainability,15.0
+Latin America/Caribbean,Raising of sheep,2035,Business As Usual,16.0
+Latin America/Caribbean,Raising of sheep,2035,Stratified Societies,17.0
+Latin America/Caribbean,Raising of sheep,2035,Toward Sustainability,15.0
+Latin America/Caribbean,Raising of sheep,2040,Business As Usual,16.0
+Latin America/Caribbean,Raising of sheep,2040,Stratified Societies,17.0
+Latin America/Caribbean,Raising of sheep,2040,Toward Sustainability,15.0
+Latin America/Caribbean,Raising of sheep,2050,Business As Usual,17.0
+Latin America/Caribbean,Raising of sheep,2050,Stratified Societies,17.0
+Latin America/Caribbean,Raising of sheep,2050,Toward Sustainability,16.0
+Near East/North Africa,Raising of buffaloes,2012,Business As Usual,184.5
+Near East/North Africa,Raising of buffaloes,2012,Stratified Societies,184.5
+Near East/North Africa,Raising of buffaloes,2012,Toward Sustainability,184.5
+Near East/North Africa,Raising of buffaloes,2030,Business As Usual,203.5
+Near East/North Africa,Raising of buffaloes,2030,Stratified Societies,193.5
+Near East/North Africa,Raising of buffaloes,2030,Toward Sustainability,207.0
+Near East/North Africa,Raising of buffaloes,2035,Business As Usual,207.0
+Near East/North Africa,Raising of buffaloes,2035,Stratified Societies,196.0
+Near East/North Africa,Raising of buffaloes,2035,Toward Sustainability,209.5
+Near East/North Africa,Raising of buffaloes,2040,Business As Usual,210.0
+Near East/North Africa,Raising of buffaloes,2040,Stratified Societies,199.5
+Near East/North Africa,Raising of buffaloes,2040,Toward Sustainability,213.0
+Near East/North Africa,Raising of buffaloes,2050,Business As Usual,217.0
+Near East/North Africa,Raising of buffaloes,2050,Stratified Societies,208.5
+Near East/North Africa,Raising of buffaloes,2050,Toward Sustainability,221.0
+Near East/North Africa,Raising of cattle,2012,Business As Usual,199.5
+Near East/North Africa,Raising of cattle,2012,Stratified Societies,199.5
+Near East/North Africa,Raising of cattle,2012,Toward Sustainability,199.5
+Near East/North Africa,Raising of cattle,2030,Business As Usual,236.5
+Near East/North Africa,Raising of cattle,2030,Stratified Societies,215.0
+Near East/North Africa,Raising of cattle,2030,Toward Sustainability,246.5
+Near East/North Africa,Raising of cattle,2035,Business As Usual,242.5
+Near East/North Africa,Raising of cattle,2035,Stratified Societies,222.0
+Near East/North Africa,Raising of cattle,2035,Toward Sustainability,252.5
+Near East/North Africa,Raising of cattle,2040,Business As Usual,249.5
+Near East/North Africa,Raising of cattle,2040,Stratified Societies,233.5
+Near East/North Africa,Raising of cattle,2040,Toward Sustainability,258.0
+Near East/North Africa,Raising of cattle,2050,Business As Usual,262.5
+Near East/North Africa,Raising of cattle,2050,Stratified Societies,257.5
+Near East/North Africa,Raising of cattle,2050,Toward Sustainability,270.0
+Near East/North Africa,Raising of goats,2012,Business As Usual,14.0
+Near East/North Africa,Raising of goats,2012,Stratified Societies,14.0
+Near East/North Africa,Raising of goats,2012,Toward Sustainability,14.0
+Near East/North Africa,Raising of goats,2030,Business As Usual,16.0
+Near East/North Africa,Raising of goats,2030,Stratified Societies,14.5
+Near East/North Africa,Raising of goats,2030,Toward Sustainability,17.0
+Near East/North Africa,Raising of goats,2035,Business As Usual,16.5
+Near East/North Africa,Raising of goats,2035,Stratified Societies,15.0
+Near East/North Africa,Raising of goats,2035,Toward Sustainability,17.5
+Near East/North Africa,Raising of goats,2040,Business As Usual,17.0
+Near East/North Africa,Raising of goats,2040,Stratified Societies,15.0
+Near East/North Africa,Raising of goats,2040,Toward Sustainability,17.5
+Near East/North Africa,Raising of goats,2050,Business As Usual,18.0
+Near East/North Africa,Raising of goats,2050,Stratified Societies,17.0
+Near East/North Africa,Raising of goats,2050,Toward Sustainability,18.5
+Near East/North Africa,Raising of pigs,2012,Business As Usual,44.0
+Near East/North Africa,Raising of pigs,2012,Stratified Societies,44.0
+Near East/North Africa,Raising of pigs,2012,Toward Sustainability,44.0
+Near East/North Africa,Raising of pigs,2030,Business As Usual,48.0
+Near East/North Africa,Raising of pigs,2030,Stratified Societies,50.0
+Near East/North Africa,Raising of pigs,2030,Toward Sustainability,46.0
+Near East/North Africa,Raising of pigs,2035,Business As Usual,49.0
+Near East/North Africa,Raising of pigs,2035,Stratified Societies,51.0
+Near East/North Africa,Raising of pigs,2035,Toward Sustainability,48.0
+Near East/North Africa,Raising of pigs,2040,Business As Usual,50.0
+Near East/North Africa,Raising of pigs,2040,Stratified Societies,51.0
+Near East/North Africa,Raising of pigs,2040,Toward Sustainability,49.0
+Near East/North Africa,Raising of pigs,2050,Business As Usual,51.0
+Near East/North Africa,Raising of pigs,2050,Stratified Societies,50.0
+Near East/North Africa,Raising of pigs,2050,Toward Sustainability,51.0
+Near East/North Africa,Raising of poultry,2012,Business As Usual,1.234
+Near East/North Africa,Raising of poultry,2012,Stratified Societies,1.234
+Near East/North Africa,Raising of poultry,2012,Toward Sustainability,1.234
+Near East/North Africa,Raising of poultry,2030,Business As Usual,1.3719999999999999
+Near East/North Africa,Raising of poultry,2030,Stratified Societies,1.358
+Near East/North Africa,Raising of poultry,2030,Toward Sustainability,1.3544999999999998
+Near East/North Africa,Raising of poultry,2035,Business As Usual,1.392
+Near East/North Africa,Raising of poultry,2035,Stratified Societies,1.3685
+Near East/North Africa,Raising of poultry,2035,Toward Sustainability,1.3780000000000001
+Near East/North Africa,Raising of poultry,2040,Business As Usual,1.408
+Near East/North Africa,Raising of poultry,2040,Stratified Societies,1.373
+Near East/North Africa,Raising of poultry,2040,Toward Sustainability,1.403
+Near East/North Africa,Raising of poultry,2050,Business As Usual,1.436
+Near East/North Africa,Raising of poultry,2050,Stratified Societies,1.3820000000000001
+Near East/North Africa,Raising of poultry,2050,Toward Sustainability,1.462
+Near East/North Africa,Raising of sheep,2012,Business As Usual,18.0
+Near East/North Africa,Raising of sheep,2012,Stratified Societies,18.0
+Near East/North Africa,Raising of sheep,2012,Toward Sustainability,18.0
+Near East/North Africa,Raising of sheep,2030,Business As Usual,20.5
+Near East/North Africa,Raising of sheep,2030,Stratified Societies,19.0
+Near East/North Africa,Raising of sheep,2030,Toward Sustainability,21.5
+Near East/North Africa,Raising of sheep,2035,Business As Usual,21.0
+Near East/North Africa,Raising of sheep,2035,Stratified Societies,19.0
+Near East/North Africa,Raising of sheep,2035,Toward Sustainability,22.0
+Near East/North Africa,Raising of sheep,2040,Business As Usual,21.5
+Near East/North Africa,Raising of sheep,2040,Stratified Societies,19.5
+Near East/North Africa,Raising of sheep,2040,Toward Sustainability,22.5
+Near East/North Africa,Raising of sheep,2050,Business As Usual,22.0
+Near East/North Africa,Raising of sheep,2050,Stratified Societies,21.0
+Near East/North Africa,Raising of sheep,2050,Toward Sustainability,23.5
+South Asia,Raising of buffaloes,2012,Business As Usual,116.5
+South Asia,Raising of buffaloes,2012,Stratified Societies,116.5
+South Asia,Raising of buffaloes,2012,Toward Sustainability,116.5
+South Asia,Raising of buffaloes,2030,Business As Usual,131.0
+South Asia,Raising of buffaloes,2030,Stratified Societies,128.0
+South Asia,Raising of buffaloes,2030,Toward Sustainability,135.5
+South Asia,Raising of buffaloes,2035,Business As Usual,133.0
+South Asia,Raising of buffaloes,2035,Stratified Societies,131.0
+South Asia,Raising of buffaloes,2035,Toward Sustainability,138.5
+South Asia,Raising of buffaloes,2040,Business As Usual,135.0
+South Asia,Raising of buffaloes,2040,Stratified Societies,135.5
+South Asia,Raising of buffaloes,2040,Toward Sustainability,141.5
+South Asia,Raising of buffaloes,2050,Business As Usual,141.0
+South Asia,Raising of buffaloes,2050,Stratified Societies,146.0
+South Asia,Raising of buffaloes,2050,Toward Sustainability,149.0
+South Asia,Raising of cattle,2012,Business As Usual,102.0
+South Asia,Raising of cattle,2012,Stratified Societies,102.0
+South Asia,Raising of cattle,2012,Toward Sustainability,102.0
+South Asia,Raising of cattle,2030,Business As Usual,124.0
+South Asia,Raising of cattle,2030,Stratified Societies,127.0
+South Asia,Raising of cattle,2030,Toward Sustainability,128.0
+South Asia,Raising of cattle,2035,Business As Usual,127.0
+South Asia,Raising of cattle,2035,Stratified Societies,132.0
+South Asia,Raising of cattle,2035,Toward Sustainability,134.0
+South Asia,Raising of cattle,2040,Business As Usual,130.0
+South Asia,Raising of cattle,2040,Stratified Societies,137.0
+South Asia,Raising of cattle,2040,Toward Sustainability,139.0
+South Asia,Raising of cattle,2050,Business As Usual,136.0
+South Asia,Raising of cattle,2050,Stratified Societies,150.0
+South Asia,Raising of cattle,2050,Toward Sustainability,151.0
+South Asia,Raising of goats,2012,Business As Usual,11.0
+South Asia,Raising of goats,2012,Stratified Societies,11.0
+South Asia,Raising of goats,2012,Toward Sustainability,11.0
+South Asia,Raising of goats,2030,Business As Usual,12.0
+South Asia,Raising of goats,2030,Stratified Societies,12.0
+South Asia,Raising of goats,2030,Toward Sustainability,13.0
+South Asia,Raising of goats,2035,Business As Usual,12.0
+South Asia,Raising of goats,2035,Stratified Societies,12.0
+South Asia,Raising of goats,2035,Toward Sustainability,13.0
+South Asia,Raising of goats,2040,Business As Usual,13.0
+South Asia,Raising of goats,2040,Stratified Societies,13.0
+South Asia,Raising of goats,2040,Toward Sustainability,13.0
+South Asia,Raising of goats,2050,Business As Usual,13.0
+South Asia,Raising of goats,2050,Stratified Societies,13.0
+South Asia,Raising of goats,2050,Toward Sustainability,14.0
+South Asia,Raising of pigs,2012,Business As Usual,35.5
+South Asia,Raising of pigs,2012,Stratified Societies,35.5
+South Asia,Raising of pigs,2012,Toward Sustainability,35.5
+South Asia,Raising of pigs,2030,Business As Usual,41.0
+South Asia,Raising of pigs,2030,Stratified Societies,43.5
+South Asia,Raising of pigs,2030,Toward Sustainability,40.5
+South Asia,Raising of pigs,2035,Business As Usual,41.5
+South Asia,Raising of pigs,2035,Stratified Societies,44.5
+South Asia,Raising of pigs,2035,Toward Sustainability,41.5
+South Asia,Raising of pigs,2040,Business As Usual,42.0
+South Asia,Raising of pigs,2040,Stratified Societies,45.0
+South Asia,Raising of pigs,2040,Toward Sustainability,43.0
+South Asia,Raising of pigs,2050,Business As Usual,43.0
+South Asia,Raising of pigs,2050,Stratified Societies,46.5
+South Asia,Raising of pigs,2050,Toward Sustainability,46.0
+South Asia,Raising of poultry,2012,Business As Usual,0.845
+South Asia,Raising of poultry,2012,Stratified Societies,0.845
+South Asia,Raising of poultry,2012,Toward Sustainability,0.845
+South Asia,Raising of poultry,2030,Business As Usual,0.922
+South Asia,Raising of poultry,2030,Stratified Societies,0.959
+South Asia,Raising of poultry,2030,Toward Sustainability,0.93
+South Asia,Raising of poultry,2035,Business As Usual,0.935
+South Asia,Raising of poultry,2035,Stratified Societies,0.967
+South Asia,Raising of poultry,2035,Toward Sustainability,0.964
+South Asia,Raising of poultry,2040,Business As Usual,0.949
+South Asia,Raising of poultry,2040,Stratified Societies,0.971
+South Asia,Raising of poultry,2040,Toward Sustainability,1.005
+South Asia,Raising of poultry,2050,Business As Usual,0.98
+South Asia,Raising of poultry,2050,Stratified Societies,0.981
+South Asia,Raising of poultry,2050,Toward Sustainability,1.092
+South Asia,Raising of sheep,2012,Business As Usual,12.0
+South Asia,Raising of sheep,2012,Stratified Societies,12.0
+South Asia,Raising of sheep,2012,Toward Sustainability,12.0
+South Asia,Raising of sheep,2030,Business As Usual,13.0
+South Asia,Raising of sheep,2030,Stratified Societies,14.0
+South Asia,Raising of sheep,2030,Toward Sustainability,14.0
+South Asia,Raising of sheep,2035,Business As Usual,14.0
+South Asia,Raising of sheep,2035,Stratified Societies,14.0
+South Asia,Raising of sheep,2035,Toward Sustainability,14.0
+South Asia,Raising of sheep,2040,Business As Usual,14.0
+South Asia,Raising of sheep,2040,Stratified Societies,15.0
+South Asia,Raising of sheep,2040,Toward Sustainability,14.0
+South Asia,Raising of sheep,2050,Business As Usual,14.0
+South Asia,Raising of sheep,2050,Stratified Societies,15.0
+South Asia,Raising of sheep,2050,Toward Sustainability,15.0
+Sub-Saharan Africa,Raising of cattle,2012,Business As Usual,125.0
+Sub-Saharan Africa,Raising of cattle,2012,Stratified Societies,125.0
+Sub-Saharan Africa,Raising of cattle,2012,Toward Sustainability,125.0
+Sub-Saharan Africa,Raising of cattle,2030,Business As Usual,146.0
+Sub-Saharan Africa,Raising of cattle,2030,Stratified Societies,143.0
+Sub-Saharan Africa,Raising of cattle,2030,Toward Sustainability,153.0
+Sub-Saharan Africa,Raising of cattle,2035,Business As Usual,151.0
+Sub-Saharan Africa,Raising of cattle,2035,Stratified Societies,147.0
+Sub-Saharan Africa,Raising of cattle,2035,Toward Sustainability,160.0
+Sub-Saharan Africa,Raising of cattle,2040,Business As Usual,154.0
+Sub-Saharan Africa,Raising of cattle,2040,Stratified Societies,152.0
+Sub-Saharan Africa,Raising of cattle,2040,Toward Sustainability,169.0
+Sub-Saharan Africa,Raising of cattle,2050,Business As Usual,164.0
+Sub-Saharan Africa,Raising of cattle,2050,Stratified Societies,167.0
+Sub-Saharan Africa,Raising of cattle,2050,Toward Sustainability,189.0
+Sub-Saharan Africa,Raising of goats,2012,Business As Usual,12.0
+Sub-Saharan Africa,Raising of goats,2012,Stratified Societies,12.0
+Sub-Saharan Africa,Raising of goats,2012,Toward Sustainability,12.0
+Sub-Saharan Africa,Raising of goats,2030,Business As Usual,13.0
+Sub-Saharan Africa,Raising of goats,2030,Stratified Societies,13.0
+Sub-Saharan Africa,Raising of goats,2030,Toward Sustainability,12.0
+Sub-Saharan Africa,Raising of goats,2035,Business As Usual,13.0
+Sub-Saharan Africa,Raising of goats,2035,Stratified Societies,13.0
+Sub-Saharan Africa,Raising of goats,2035,Toward Sustainability,13.0
+Sub-Saharan Africa,Raising of goats,2040,Business As Usual,13.0
+Sub-Saharan Africa,Raising of goats,2040,Stratified Societies,13.0
+Sub-Saharan Africa,Raising of goats,2040,Toward Sustainability,13.0
+Sub-Saharan Africa,Raising of goats,2050,Business As Usual,13.0
+Sub-Saharan Africa,Raising of goats,2050,Stratified Societies,13.0
+Sub-Saharan Africa,Raising of goats,2050,Toward Sustainability,14.0
+Sub-Saharan Africa,Raising of pigs,2012,Business As Usual,42.0
+Sub-Saharan Africa,Raising of pigs,2012,Stratified Societies,42.0
+Sub-Saharan Africa,Raising of pigs,2012,Toward Sustainability,42.0
+Sub-Saharan Africa,Raising of pigs,2030,Business As Usual,46.5
+Sub-Saharan Africa,Raising of pigs,2030,Stratified Societies,49.0
+Sub-Saharan Africa,Raising of pigs,2030,Toward Sustainability,46.5
+Sub-Saharan Africa,Raising of pigs,2035,Business As Usual,47.5
+Sub-Saharan Africa,Raising of pigs,2035,Stratified Societies,49.5
+Sub-Saharan Africa,Raising of pigs,2035,Toward Sustainability,49.0
+Sub-Saharan Africa,Raising of pigs,2040,Business As Usual,48.0
+Sub-Saharan Africa,Raising of pigs,2040,Stratified Societies,49.5
+Sub-Saharan Africa,Raising of pigs,2040,Toward Sustainability,51.5
+Sub-Saharan Africa,Raising of pigs,2050,Business As Usual,49.5
+Sub-Saharan Africa,Raising of pigs,2050,Stratified Societies,50.0
+Sub-Saharan Africa,Raising of pigs,2050,Toward Sustainability,56.0
+Sub-Saharan Africa,Raising of poultry,2012,Business As Usual,0.915
+Sub-Saharan Africa,Raising of poultry,2012,Stratified Societies,0.915
+Sub-Saharan Africa,Raising of poultry,2012,Toward Sustainability,0.915
+Sub-Saharan Africa,Raising of poultry,2030,Business As Usual,1.023
+Sub-Saharan Africa,Raising of poultry,2030,Stratified Societies,1.064
+Sub-Saharan Africa,Raising of poultry,2030,Toward Sustainability,1.025
+Sub-Saharan Africa,Raising of poultry,2035,Business As Usual,1.04
+Sub-Saharan Africa,Raising of poultry,2035,Stratified Societies,1.076
+Sub-Saharan Africa,Raising of poultry,2035,Toward Sustainability,1.059
+Sub-Saharan Africa,Raising of poultry,2040,Business As Usual,1.058
+Sub-Saharan Africa,Raising of poultry,2040,Stratified Societies,1.084
+Sub-Saharan Africa,Raising of poultry,2040,Toward Sustainability,1.091
+Sub-Saharan Africa,Raising of poultry,2050,Business As Usual,1.093
+Sub-Saharan Africa,Raising of poultry,2050,Stratified Societies,1.102
+Sub-Saharan Africa,Raising of poultry,2050,Toward Sustainability,1.172
+Sub-Saharan Africa,Raising of sheep,2012,Business As Usual,13.0
+Sub-Saharan Africa,Raising of sheep,2012,Stratified Societies,13.0
+Sub-Saharan Africa,Raising of sheep,2012,Toward Sustainability,13.0
+Sub-Saharan Africa,Raising of sheep,2030,Business As Usual,14.0
+Sub-Saharan Africa,Raising of sheep,2030,Stratified Societies,14.0
+Sub-Saharan Africa,Raising of sheep,2030,Toward Sustainability,15.0
+Sub-Saharan Africa,Raising of sheep,2035,Business As Usual,15.0
+Sub-Saharan Africa,Raising of sheep,2035,Stratified Societies,14.0
+Sub-Saharan Africa,Raising of sheep,2035,Toward Sustainability,15.0
+Sub-Saharan Africa,Raising of sheep,2040,Business As Usual,15.0
+Sub-Saharan Africa,Raising of sheep,2040,Stratified Societies,15.0
+Sub-Saharan Africa,Raising of sheep,2040,Toward Sustainability,16.0
+Sub-Saharan Africa,Raising of sheep,2050,Business As Usual,15.0
+Sub-Saharan Africa,Raising of sheep,2050,Stratified Societies,16.0
+Sub-Saharan Africa,Raising of sheep,2050,Toward Sustainability,16.0

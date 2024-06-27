@@ -1,0 +1,13 @@
+#nutrition svg {
+    max-height: 275px;
+}
+
+#nutrition h1 {
+    position: relative;
+    margin: auto;
+    
+}
+
+#nutrition .sticky {
+    padding-top: 2.5vh;
+}

@@ -18,8 +18,8 @@ function SolarSystem({index}) {
   const width = 1080;
   const [data, setData] = useState([
     {
-        name: "2020",
-        value: "36",
+        name: "2022",
+        value: "53.8",
         w: width / 2
     },
     {
@@ -33,19 +33,24 @@ function SolarSystem({index}) {
         w: width * 3
     },
     {
+      name: "Meat Emissions Alone (Business as Usual)",
+      value: "811",
+      w: width * 4
+    },    
+    {
         name: "Food Emissions Alone (Business as Usual)",
         value: "1356",
-        w: width * 4
+        w: width * 5
     },
     {
         name: "2.0* C Budget (67% Chance)",
         value: "1405",
-        w: width * 5
+        w: width * 6
     },
     {
         name: "2.0* C Budget (50% Chance)",
         value: "1816",
-        w: width * 6
+        w: width * 7
     },    
   ]);
 
@@ -60,10 +65,6 @@ function SolarSystem({index}) {
     const svg = d3.select(svgRef.current);
     const systemScale = d3.scaleLinear().domain([50, 1816]).range([100, 350]);
 
-    // TODO;
-    // There's a bug here at index 0.
-    // Move current Node off screen. 
-    // Move next node onto screen.
     if (prevIndex !== index && initialized) {
       const g = svg.select("g");
       const gLineTop = g.selectAll("line.top");
@@ -132,10 +133,29 @@ function SolarSystem({index}) {
           return d.w;
         });
 
+      gLegend.attr("fill", function(d,i){
+        if ((index == 3 || index == 4) && i == index) {
+          return "red"
+        }
+        return "none";
+      });
+
+      gLegend.attr("opacity", function(d,i){
+        if ((index == 3 || index == 4) && i == index) {
+          return "0.5"
+        }
+        return "1";
+      });      
+
       gLegend.attr("stroke", function(d,i) {
         if (i === index) {
           return "red";
+        } 
+
+        if (i == 3 || i == 4) {
+          return "none";
         }
+
         return "white";
       });
 
@@ -246,18 +266,18 @@ function SolarSystem({index}) {
                     return './greenEarth.svg';
                   } else if (i <= 2 && i >= 1) {
                     return './yellowEarth.svg';
-                  } else if (i == 3){
+                  } else if (i == 4 || i == 3){
                     return './orangeEarth.svg';
-                  } else if (i > 3) {
+                  } else if (i > 4) {
                     return './redEarth.svg';
                   }
                 });
     
-    const valuesToShow = [36, 500, 705, 1356, 1405, 1816];
-    const textToShow = [36, 500, 705, 1405, 1816];
+    const valuesToShow = [53.8, 500, 705, 811, 1356, 1405, 1816];
+    const textToShow = [53.8, 500, 705, 1405, 1816];
 
     const size = d3.scaleLinear()
-    .domain([36, 1816])  
+    .domain([56, 1816])  
     .range([1, 100])  
     
     const xCircle = 930
@@ -271,15 +291,20 @@ function SolarSystem({index}) {
         .attr("cx", xCircle)
         .attr("cy", function(d){ return yCircle - size(d) } )
         .attr("r", function(d){ return size(d) })
-        .style("fill", "none")
+        .attr("fill", "none")
         .attr("stroke", function(d,i) {
           if (i == 0) {
             return "red";
           }
+
+          if (i == 3 || i == 4) {
+            return "none";
+          }
+
           return "white";
         })
 
-    if (windowWidth > 1000) {
+    if (windowWidth > 1300) {
       g.selectAll("line.legend")
       .data(textToShow)
       .enter()
