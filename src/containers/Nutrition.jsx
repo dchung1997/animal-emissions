@@ -56,9 +56,9 @@ function Nutrition() {
 
   useEffect(() => {
     if (currentStepIndex === 1) {
-        setCurrentData(foodSecurityCountryRegionData);
+      setCurrentData(foodSecurityCountryRegionData);
     } else {
-        setCurrentData(nutritionCountryRegionData)
+      setCurrentData(nutritionCountryRegionData)
     }
 
   }, [currentStepIndex])
@@ -72,83 +72,95 @@ function Nutrition() {
             <h1>Food Security and Undernourishment</h1>
           </Col>
           <Col>
-            { currentStepIndex === 1 ? 
-                        <MultiLineChart
-                            data={currentData}
-                            name="Prevalence of moderate to severe food insecurity (% of population)"
-                            title="Food Insecurity Estimates by Region"
-                        /> :
-                        <MultiLineChart
-                            data={currentData}
-                            name="Prevalence of undernourishment (% of population)"
-                            title="Undernourishment Estimates by Region"
-                        />                        
+            {currentStepIndex === 1 ?
+              <MultiLineChart
+                data={currentData}
+                name="Prevalence of moderate to severe food insecurity (% of population)"
+                title="Food Insecurity Estimates by Region"
+              /> :
+              <MultiLineChart
+                data={currentData}
+                name="Prevalence of undernourishment (% of population)"
+                title="Undernourishment Estimates by Region"
+              />
             }
           </Col>
           <Col xs={0} xxl={2}></Col>
         </Row>
         <Row>
-          <Col lg={0} xxl={1}></Col>
-          <Col>
-            <LineChart data={currentData} column="Low income" />
+          <Col></Col>
+          <Col xs={9}>
+            <Row>
+              <Col>
+                <LineChart data={currentData} column="Low income" />
+              </Col>
+              <Col>
+                <LineChart
+                  data={currentData}
+                  column="Lower middle income"
+                />
+              </Col>
+              <Col>
+                <LineChart
+                  data={currentData}
+                  column="Upper middle income"
+                />
+              </Col>
+              <Col>
+                <LineChart data={currentData} column="High income" />
+              </Col>
+            </Row>
           </Col>
-          <Col>
-            <LineChart
-              data={currentData}
-              column="Lower middle income"
-            />
-          </Col>
-          <Col>
-            <LineChart
-              data={currentData}
-              column="Upper middle income"
-            />
-          </Col>
-          <Col>
-            <LineChart data={currentData} column="High income" />
-          </Col>
-          <Col lg={0} xxl={1}></Col>
+          <Col></Col>
         </Row>
         <Row>
-          <Col lg={0} xxl={2}></Col>
-          <Col>
-            <LineChart
-              data={currentData}
-              column="Latin America & Caribbean"
-            />
+          <Col></Col>
+          <Col xs={7}>
+            <Row>
+              <Col>
+                <LineChart
+                  data={currentData}
+                  column="Latin America & Caribbean"
+                />
+              </Col>
+              <Col>
+                <LineChart
+                  data={currentData}
+                  column="Middle East & North Africa"
+                />
+              </Col>
+              <Col>
+                <LineChart
+                  data={currentData}
+                  column="Sub-Saharan Africa"
+                />
+              </Col>
+            </Row>
           </Col>
-          <Col>
-            <LineChart
-              data={currentData}
-              column="Middle East & North Africa"
-            />
-          </Col>
-          <Col>
-            <LineChart
-              data={currentData}
-              column="Sub-Saharan Africa"
-            />
-          </Col>
-          <Col lg={0} xxl={2}></Col>
+          <Col></Col>
         </Row>
         <Row>
-          <Col lg={0} xxl={2}></Col>
-          <Col>
-            <LineChart data={currentData} column="South Asia" />
+          <Col></Col>
+          <Col xs={7}>
+            <Row>
+              <Col>
+                <LineChart data={currentData} column="South Asia" />
+              </Col>
+              <Col>
+                <LineChart
+                  data={currentData}
+                  column="East Asia & Pacific"
+                />
+              </Col>
+              <Col>
+                <LineChart
+                  data={currentData}
+                  column="Europe & Central Asia"
+                />
+              </Col>
+            </Row>
           </Col>
-          <Col>
-            <LineChart
-              data={currentData}
-              column="East Asia & Pacific"
-            />
-          </Col>
-          <Col>
-            <LineChart
-              data={currentData}
-              column="Europe & Central Asia"
-            />
-          </Col>
-          <Col lg={0} xxl={2}></Col>
+          <Col></Col>
         </Row>
       </figure>
       <div className="sampleScroller">

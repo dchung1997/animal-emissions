@@ -10,11 +10,14 @@ function MeatLayout({data, yearData, extents}) {
   const width = 1900;
   const height = 1200;
 
-  const regions = ['Sub-Saharan Africa', 'Latin America/Caribbean', 'Near East/North Africa', 'Europe/Central Asia', 'South Asia', 'East Asia and Pacific', 'High-income'];
+  const regions = ['Sub-Saharan Africa', 'Latin America/Caribbean', 'Middle East/North Africa', 'Europe/Central Asia', 'South Asia', 'East Asia and Pacific', 'High-income'];
   const animals = ["Total Number of Cattle", "Total Number of Poultry", "Total Number of Pigs", "Total Number of Goats and Sheep"];
   const scenarios = ["Stratified Societies", "Business As Usual", "Toward Sustainability"];
+  const abrevations = ["Stratisfied", "Current", "Sustainability"];
+
   const subScale = d3.scaleOrdinal().domain(scenarios).range([0, 125, 250]);
   const xScale = d3.scaleBand().domain(animals).range([100, 2000]);
+  const abrevScale = d3.scaleOrdinal().domain(abrevations).range([0, 125, 250]);
   
   const indexScale = d3.scaleOrdinal().domain(animals).range([0, 1, 2, 3]);
   const colorScale = d3.scaleOrdinal().domain(regions).range(d3.schemeTableau10)
@@ -68,25 +71,25 @@ function MeatLayout({data, yearData, extents}) {
           .call(g => g.select('.domain').remove()); 
 
         const axisCowSub = g => g
-          .call(d3.axisTop(subScale))
-          .attr('transform', "translate(102.5, 80)")
+          .call(d3.axisTop(abrevScale))
+          .attr('transform', "translate(105.5, 80)")
           .attr('font-size', "0.75em")
           .call(g => g.select('.domain').remove());           
 
         const axisChickenSub = g => g
-          .call(d3.axisTop(subScale))
-          .attr('transform', "translate(577.5, 80)")
+          .call(d3.axisTop(abrevScale))
+          .attr('transform', "translate(560.5, 80)")
           .attr('font-size', "0.75em")
           .call(g => g.select('.domain').remove());    
           
         const axisPigSub = g => g
-          .call(d3.axisTop(subScale))
-          .attr('transform', "translate(1052.5, 80)")
+          .call(d3.axisTop(abrevScale))
+          .attr('transform', "translate(1065.5, 80)")
           .attr('font-size', "0.75em")
           .call(g => g.select('.domain').remove());              
 
         const axisGoatSub = g => g
-          .call(d3.axisTop(subScale))
+          .call(d3.axisTop(abrevScale))
           .attr('transform', "translate(1527.5, 80)")
           .attr('font-size', "0.75em")
           .call(g => g.select('.domain').remove());              

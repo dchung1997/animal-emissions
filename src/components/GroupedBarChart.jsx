@@ -10,6 +10,7 @@ export default function GroupedBarChart({data, name, domain}) {
     if (!data || data.length === 0) return;
     if (!chart) {
         const plot = Plot.plot({
+          marginLeft: 10,
           x: {axis: null, domain: ['Stratified Societies', 'Business As Usual', 'Toward Sustainability']},
           y: {tickFormat: "s", grid: true, label:name + " Meat Yield (kg)", domain: domain},
           fx: {padding: 0, label: null, tickSize: 6},

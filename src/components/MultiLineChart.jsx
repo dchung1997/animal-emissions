@@ -29,12 +29,11 @@ export default function MultiLineChart({ data, name, title }) {
         d !== "Lower middle income" &&
         d !== "Upper middle income"
       ) {
-        console.log(data[d]);
         return Plot.lineY(data[d], {
           x: "date",
           y: "value",
           stroke: "region",
-          strokeOpacity: {},
+          strokeWidth: 5,
         });
       }
     });

@@ -24,6 +24,8 @@ export default function LineChart({ data, column, color }) {
       .range(d3.schemeTableau10);
 
     const plot = Plot.plot({
+      marginLeft: 10,
+      marginTop: 35,
       y: {
         grid: true,
         label: column + " (%) of population",
@@ -41,6 +43,7 @@ export default function LineChart({ data, column, color }) {
           x: "date",
           y: "value",
           stroke: (d) => colorScale(d.region),
+          strokeWidth: 5,
         }),
       ],
     });

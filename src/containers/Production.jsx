@@ -31,6 +31,16 @@ function Production() {
     setCurrentStepIndex(data);
   };
 
+  function abbreviateLine(line) {
+    // Split the line at any word separators (spaces, hyphens, or forward slashes)
+    const words = line.split(/\s|\/|-/);
+  
+    // Create the abbreviation by taking the first letter of each word
+    const abbreviation = words.map(word => word[0]).join("");
+  
+    return abbreviation.toUpperCase(); // Convert abbreviation to uppercase
+  }
+
   useEffect(() => {
     const clonePopulation = structuredClone(population);
     const initialData = projections.filter(function (d) {
@@ -144,20 +154,27 @@ function Production() {
       }
     });
 
-    console.log(initialEfficency);
-
     const grouped_sum = d3.group(sortedSum, (d) => d.Item);
-    setYearSumData(grouped_sum);
-    setPopulationData(initialPopulation);
-    setExtents([beef_extent, poultry_extent, pig_extent, goat_extent]);
-    setLiveStockEfficency([
+    const efficency = [
       cattle_median,
       buffalo_median,
       poultry_median,
       pig_median,
       goat_median,
       sheep_median,
-    ]);
+    ].map(function(d){
+      return d.map(function(e) {
+        if (e.Region !== e.Region.toLocaleUpperCase()) {
+          e.Region = abbreviateLine(e.Region);
+        }
+        return e;       
+      });
+    });
+
+    setYearSumData(grouped_sum);
+    setPopulationData(initialPopulation);
+    setExtents([beef_extent, poultry_extent, pig_extent, goat_extent]);
+    setLiveStockEfficency(efficency);
     setLivestockData(initialData);
   }, []);
 
@@ -242,16 +259,19 @@ function Production() {
         return d;
       }
     });
-    setPopulationData(popSum);
-    setYearSumData(grouped_sum);
-    setLiveStockEfficency([
+
+    const efficency = [
       cattle_median,
       buffalo_median,
       poultry_median,
       pig_median,
       goat_median,
       sheep_median,
-    ]);
+    ];
+
+    setPopulationData(popSum);
+    setYearSumData(grouped_sum);
+    setLiveStockEfficency(efficency);
     setLivestockData(data);
   }, [currentStepIndex]);
 
@@ -267,7 +287,7 @@ function Production() {
         </Row>
         <Row className="vis">
           <Col lg={0} xxl={1}></Col>
-          <Col md={12} lg={8} xxl={6}>
+          <Col md={12} lg={6} xxl={6}>
             <MeatLayout
               data={livestockData}
               extents={extents}
@@ -277,8 +297,8 @@ function Production() {
               <HorizontalBarChart data={populationData} />
             </Row>            
           </Col>
-          <Col md={12} lg={4} xxl={4}>
-            <Row>
+          <Col md={12} lg={6} xxl={4} className="data">
+            <Row className="swatch">
               <Swatch/>
             </Row>  
             <Row>

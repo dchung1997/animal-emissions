@@ -11,3 +11,70 @@
 #nutrition .sticky {
     padding-top: 2.5vh;
 }
+
+@media (max-width: 1300px) {
+ 
+    #nutrition h1 {
+        margin-left: 1em;
+        font-size: 64px;
+    }
+
+    /* CSS */
+    #nutrition svg {
+        max-height: 120px;
+        font-size: 20px;
+    }
+
+    #nutrition [aria-label="y-axis tick label"] text {
+        font-size: 24px;
+    }
+
+    #nutrition [aria-label="y-axis label"] text    {
+            font-size: 32px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+ 
+        #nutrition h1 {
+            margin-left: 0;
+            font-size: 64px;
+        }
+    
+        /* CSS */
+        #nutrition svg {
+            max-height: 110px;
+            font-size: 22px;
+        }
+    
+        #nutrition [aria-label="y-axis tick label"] text {
+            font-size: 24px;
+        }
+    
+        #nutrition [aria-label="y-axis label"] text    {
+                font-size: 28px;
+            }
+        }
+
+@media (max-width: 800px) {
+ 
+    #nutrition h1 {
+        margin-left: 0;
+        font-size: 64px;
+    }
+
+    /* CSS */
+    #nutrition svg {
+        max-height: 80px;
+        font-size: 28px;
+    }
+
+    #nutrition [aria-label="y-axis tick label"] text {
+        font-size: 30px;
+    }
+
+    #nutrition [aria-label="y-axis label"] text    {
+            font-size: 34px;
+        }
+    }
+  

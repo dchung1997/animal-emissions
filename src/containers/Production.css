@@ -13,14 +13,19 @@
 #production svg {
     width: 100%;
 }
+    
+.efficency svg text {
+    font-size: 22px;
+}
+
+.meatLayoutContainer svg text {
+    font-size: 23px;
+}
 
 #production svg text {
     text-rendering: optimizeLegibility;
 }
 
-#production .efficency svg text {
-    font-size: 12px !important; 
- }
 
 #production p {
     max-width: 800px;
@@ -41,7 +46,22 @@
     #production .vis {
         padding-top: 10vh;
     }
+
+    .efficency svg {
+        height: 180px;
+    }
+
+    .meatLayoutContainer svg {
+        height: 475px;
+    }
  
+    .vis.row .data {
+        margin-top: 5vh;
+    }
+
+    .vis.row .swatch {
+        margin-left: 5vw;
+    }
   }
 
 
@@ -53,11 +73,11 @@
     }
 
     .meatLayoutContainer svg {
-        height: 400px;
+        height: 350px;
     }
 
     .efficency svg {
-        height: 200px;
+        height: 100px;
     }
     
   }

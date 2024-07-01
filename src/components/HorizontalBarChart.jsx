@@ -12,7 +12,7 @@ export default function HorizontalBarChart({data}) {
     if (!data || data.length === 0) return;
     if (!chart) {
         const plot = Plot.plot({
-            marginLeft: 140,
+            marginLeft: 160,
             height: 130,
             x: { label: "World Population (Billions)", axis:"top", domain:[0, 2.5]},
             y: { label: null},
