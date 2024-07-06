@@ -57,7 +57,7 @@ function Nutrition() {
   useEffect(() => {
     if (currentStepIndex === 1) {
       setCurrentData(foodSecurityCountryRegionData);
-    } else {
+    } else if (nutritionCountryRegionData) {
       setCurrentData(nutritionCountryRegionData)
     }
 
@@ -75,12 +75,12 @@ function Nutrition() {
             {currentStepIndex === 1 ?
               <MultiLineChart
                 data={currentData}
-                name="Prevalence of moderate to severe food insecurity (% of population)"
+                name="Prevalence of moderate+ food insecurity (Population %)"
                 title="Food Insecurity Estimates by Region"
               /> :
               <MultiLineChart
                 data={currentData}
-                name="Prevalence of undernourishment (% of population)"
+                name="Prevalence of undernourishment (Population %)"
                 title="Undernourishment Estimates by Region"
               />
             }
@@ -173,17 +173,14 @@ function Nutrition() {
               }}
             >
               <p>
-                The year is 2022. The COVID-19 pandemic is reaching its peak as
-                the world is still recovering from the initial disruptions to
-                the global economy. A new record is passed for global greenhouse
-                emissions at 53.8 (Gt CO2eq) an increase of 1.4% as it passes
-                the previous year's record. As global emissions continue to
-                reach new record highs, no country is close to reaching the
-                1.5°C limit set up by the Paris Climate Agreement.
+                Malnutrition has continued to be a constant issue over the last few decades.
+                While rates have seen a consistent decline across income levels with trends in 
+                most parts of the world seeing a consistent decrease. In places such as the 
+                Middle East, Africa, and South Asia rates have gone up in recent years.
               </p>
             </div>
           </Step>
-          <Step data={1} key={1}>
+          <Step data={0} key={1}>
             <div
               style={{
                 padding: "40vh 0",
@@ -191,12 +188,70 @@ function Nutrition() {
               }}
             >
               <p>
-                In order for there to be a 67% chance of staying under the 1.5°C
-                limit. Total global emissions from 2020-2100 would need to stay
-                under 500 billion tons of CO2 eq. (Gt CO2eq.)
+                While issues such as the COVID-19 Pandemic and the Ukrainian War have had 
+                considerable contributions towards these issues due to disruptions and
+                shortages in the global food supply chain. Many of these regions have
+                issues in dealing with self sufficency in their own economies. 
               </p>
             </div>
           </Step>
+          <Step data={0} key={2}>
+            <div
+              style={{
+                padding: "40vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                As Climate Change worsens distuptions to the global food supply chain are likely to worsen.
+                Under the current climate scenario by 2050 an additional 183 million people are expected
+                to become undernourished in mostly lower income countries.
+              </p>
+            </div>
+          </Step>      
+          <Step data={1} key={3}>
+            <div
+              style={{
+                padding: "40vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                Food Insecurity similarly has been on the rise. While data for this has been limited in its collection
+                to fairly recently. Pre-Pandemic levels of Food Insecurity show a gradual increase in Food Insecurity. 
+                Across economic levels of all countries with the exception of High Income Countries we similarly see
+                an increase. While Lower Middle Income countries saw a sharp increase while Low and Upper Middle Countries
+                saw ones that seemed to be plateauing.
+              </p>
+            </div>
+          </Step> 
+          <Step data={1} key={3}>
+            <div
+              style={{
+                padding: "40vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                However at a regional level where insecurity occurred and the rate differed by region.
+                While in places such as Sub-Saharan Africa a continual trend upward can be seen. In others
+                it tended to be sharp increases or decreases accompanying with a plateau. This is likely
+                due unequal development of economies in the region along with localized issues.
+              </p>
+            </div>
+          </Step>    
+          <Step data={1} key={3}>
+            <div
+              style={{
+                padding: "40vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                The UN estimates that approximately 
+              </p>
+            </div>
+          </Step>                                    
         </Scrollama>
       </div>
     </Container>

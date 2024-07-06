@@ -40,15 +40,20 @@ export default function MultiLineChart({ data, name, title }) {
 
     const plot = Plot.plot({
       title: title,
+      marginTop: 50,
       color: {
         type: "categorical",
         scheme: "Tableau10",
         domain: regions,
         legend: true,
       },
+      x: {
+        ticks: 5
+      },
       y: {
         grid: true,
         label: name,
+        ticks: 5
       },
       marks: marks,
     });

@@ -21,16 +21,16 @@
 
     /* CSS */
     #nutrition svg {
-        max-height: 120px;
+        max-height: 150px;
         font-size: 20px;
     }
 
     #nutrition [aria-label="y-axis tick label"] text {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     #nutrition [aria-label="y-axis label"] text    {
-            font-size: 32px;
+            font-size: 28px;
         }
     }
 

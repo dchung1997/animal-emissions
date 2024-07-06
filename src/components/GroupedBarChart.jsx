@@ -9,6 +9,8 @@ export default function GroupedBarChart({data, name, domain}) {
   useEffect(() => {
     if (!data || data.length === 0) return;
     if (!chart) {
+        const max2012 = d3.max(data.filter((d) => d.Year === 2012), (d) => d.Value);
+
         const plot = Plot.plot({
           marginLeft: 10,
           x: {axis: null, domain: ['Stratified Societies', 'Business As Usual', 'Toward Sustainability']},
@@ -19,6 +21,11 @@ export default function GroupedBarChart({data, name, domain}) {
           color: {scheme: "YlGnBu"},
           className: "grouped-bar-" + name, 
           marks: [
+            Plot.ruleY([max2012], {
+              stroke: "grey",
+              strokeDasharray: [5, 5], 
+              strokeWidth: 2.5
+            }),
             Plot.barY(data, {
               x: "Scenario",
               y: "Value",

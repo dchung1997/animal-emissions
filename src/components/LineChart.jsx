@@ -24,12 +24,17 @@ export default function LineChart({ data, column, color }) {
       .range(d3.schemeTableau10);
 
     const plot = Plot.plot({
-      marginLeft: 10,
       marginTop: 35,
+      marginLeft: 60,
+      marginRight: 40,
       y: {
         grid: true,
-        label: column + " (%) of population",
+        label: column + " (Population %)",
         domain: extent,
+        ticks: 5
+      },
+      x: {
+        ticks: 5,
       },
       marks: [
         Plot.areaY(selectedData, {

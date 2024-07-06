@@ -26,16 +26,6 @@
     text-rendering: optimizeLegibility;
 }
 
-
-#production p {
-    max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 2em;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    color:black;
-}
-
 .right {
     left:80%;
 }

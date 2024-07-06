@@ -21,14 +21,16 @@ function System() {
             <Step data={0} key={0}>
               <div
                 style={{
-                  padding: "40vh 0",
+                  padding: "60vh 0",
                   opacity: 0.99,
                 }}
               >
                 <p>
-                    The year is 2022. The COVID-19 pandemic is reaching its peak as the world is still recovering from the initial disruptions to the global economy. 
-                    A new record is passed for global greenhouse emissions at 53.8 (Gt CO2eq) an increase of 1.4% as it passes the previous year's record. 
-                    As global emissions continue to reach new record highs, no country is close to reaching the 1.5°C limit set up by the Paris Climate Agreement.
+                    The year is 2022. The COVID-19 pandemic is nearing its peak. 
+                    As the world continues to recover from disruptions to the global economy. 
+                    A new record is set as global greenhouse emissions increase to 53.8 (Gt CO2eq). 
+                    While global emissions continue to rise, no country is close to reaching the 1.5°C 
+                    limit set up by the Paris Climate Agreement in 2015.
                 </p>
               </div>
             </Step>
@@ -40,7 +42,11 @@ function System() {
                 }}
               >
                 <p>
-                  In order for there to be a 67% chance of staying under the 1.5°C limit. Total global emissions from 2020-2100 would need to stay under 500 billion tons of CO2 eq. (Gt CO2eq.)
+                  Under the Climate Paris Accords 195 of the 196 nation states represented in the UN came to an agreement 
+                  of limiting global emissions to just under 1.5°C. An ambition target set by the nations around the world. However, as of 2024
+                  no major country has come close to reaching this target.
+                  It's estimated that order for there to be a 67% chance of staying under the 1.5°C limit. Total global emissions from 2020-2100 would need to stay under 500 billion tons of CO2 eq. (Gt CO2eq.)
+                  As of 2024 most scientists predict that we will pass this metric within the next 5 years.
                 </p>                
               </div>
             </Step>
@@ -53,7 +59,9 @@ function System() {
                 }}
               >
                 <p>
-                  Similarly for there to be a 50% chance of staying in that range global emissions would need to stay under 705 billion tons of CO2 equivalent emissions.
+
+                  Similarly for there to be a 50% chance of staying under the 1.5°C limit set by the accords, global emissions would need to stay under 705 billion tons of CO2 equivalent emissions.
+                  Estimates today by scientists put us at breaking this limit by the mid 2030s.
                 </p>
               </div>
             </Step>
@@ -67,7 +75,7 @@ function System() {
               >
                 <p>
                   As it currently stands the Meat & Dairy Industry is set to produce approximately 811 billion tons of emissions between 2020 and 2100.                  
-                  With Meat and Dairy accounting for around 14.5% of all emissions and more than half of all global food emissions, this alone will push us past the 1.5°C limit. 
+                  With Meat and Dairy accounting for around 14.5% of all emissions and more than half of all global food emissions. 
                   Meat and Dairy Emissions alone set up a future where the Paris Climate Accords are never met.
                 </p>
               </div>
@@ -81,7 +89,7 @@ function System() {
                 }}
               >
                 <p>
-                  Accounting for just the total food emissions alone for the carbon budgets of 1.5°C and 2.0°C there is little left for anything else.
+                  Accounting for just the total food emissions the carbon budgets of 1.5°C and 2.0°C there is little left for anything else.
                   Without cuts to total food emissions reaching the 1.5°C limit set by the Paris Climate Accord are out of reach. 
                 </p>
               </div>
@@ -97,7 +105,7 @@ function System() {
                 <p>
                   With total food emissions reaching 1356 Gt by 2100 assuming that there was 67% chance to avoid 2.0°C.
                   There would only be 49 Gt remaining for non-food based emissions. In 2022 global energy emissions alone 
-                  reached a new high of 36.8 Gt.
+                  reached a new high of 53.8 Gt. As it currently stands breaking 2.0°C could happen as early as the 2040s.
                 </p>
               </div>
             </Step>  
@@ -110,9 +118,10 @@ function System() {
                 }}
               >
                 <p>
-                  As it currently stands the world is getting hotter at an unsustainable rate. Without any change to current emission rates
-                  the world temperature will easily surpace 2°C by 2100. 
-                  Without any further increases to emissions. Easily doubling the amount of emissions for a 50% chance to stay under the projected 2.0°C.
+                  Is it really possible to stay under the 1.5°C limit set by the Paris Climate Accord? 
+                  By the mid 21st century we could use up the remaining 1816 Gts of our carbon budget left for
+                  a 50% chance to stay under 2.0°C. As it stands currently the world is getting hotter at an unsustainable rate. Without any change to current emission rates
+                  the average world temperature could easily surpace 3-4°C by the year 2100. 
                 </p>
               </div>
             </Step>                 

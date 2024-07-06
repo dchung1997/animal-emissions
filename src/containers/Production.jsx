@@ -315,7 +315,7 @@ function Production() {
                 <Row className="efficency">
                   <GroupedBarChart
                     data={liveStockEfficency ? liveStockEfficency[2] : null}
-                    domain={[0, 3]}
+                    domain={[0, 2]}
                     name="Poultry"
                   />
                 </Row>
@@ -344,17 +344,16 @@ function Production() {
               }}
             >
               <p>
-                The year is 2022. The COVID-19 pandemic is reaching its peak as
-                the world is still recovering from the initial disruptions to
-                the global economy. A new record is passed for global greenhouse
-                emissions at 53.8 (Gt CO2eq) an increase of 1.4% as it passes
-                the previous year's record. As global emissions continue to
-                reach new record highs, no country is close to reaching the
-                1.5°C limit set up by the Paris Climate Agreement.
+                What does it mean to reduce food emissions in the decades to come? 
+                In order to reduce carbon emissions in regards to the Paris Accords how exactly would
+                a countries expected contribution be in reducing climate change? In 2012 the UN's FAO released
+                data on possible pathways towards different scenarios. While they may not be entirely accurate 
+                it gives us a glimpse into possible sustainable pathways entering into the mid 21st century and climate
+                change.
               </p>
             </div>
           </Step>
-          <Step data={1} key={1}>
+          <Step data={0} key={1}>
             <div
               style={{
                 padding: "40vh 0",
@@ -362,13 +361,43 @@ function Production() {
               }}
             >
               <p>
-                In order for there to be a 67% chance of staying under the 1.5°C
-                limit. Total global emissions from 2020-2100 would need to stay
-                under 500 billion tons of CO2 eq. (Gt CO2eq.)
+                In 2012 you can see that regions such as East Asia and the Pacifics along with South Asia are some of the largest 
+                producers of various livestock. Often with High Income Countries lagging right behind them. It makes sense as these are 
+                some of the most heavily populated areas. 
+              </p>
+            </div>
+          </Step>    
+          <Step data={0} key={2}>
+            <div
+              style={{
+                padding: "40vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                Some things that stick out are regions such as Latin America and the Caribbeans. Which have a suprisingly
+                large number of cattle and poultry. Along with in East Asia and the Pacifics with China and its large production of
+                both Poultry and Pigs. In which both regions see only a small percentage of exports for meats with the majority consumed internally.
+              </p>
+            </div>
+          </Step>                    
+          <Step data={1} key={3}>
+            <div
+              style={{
+                padding: "40vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                By the year 2030 the population of East Asia and the Pacific peaks. 
+                In other places such South Asia and Sub-Saharan Africa we see large population growth.
+                In every single scenario the total number of animals each region produces increases. 
+                Sub-Saharan Africa seeing the largest gains with it going from the last producer of Poultry to fourth. 
+                Efficency of Meat Yields increase all regions and scenarios. But in many gaps begin to form.
               </p>
             </div>
           </Step>
-          <Step data={2} key={2}>
+          <Step data={2} key={4}>
             <div
               style={{
                 padding: "40vh 0",
@@ -377,13 +406,31 @@ function Production() {
               }}
             >
               <p>
-                Similarly for there to be a 50% chance of staying in that range
-                global emissions would need to stay under 705 billion tons of
-                CO2 equivalent emissions.
+                In the 2040s total populations of animals for many regions
+                begin to slow down as population growth sees little to no change.
+                Yields of the poultry and pig meat stagnate in Sub-Saharan Africa and South Asia. 
+                Across multiple regions we see meat yields of all scenarios reach a similar baseline to
+                high income countries in the 2010s.
               </p>
             </div>
           </Step>
-          <Step data={3} key={3}>
+          <Step data={2} key={5}>
+            <div
+              style={{
+                padding: "40vh 0",
+                margin: "65vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                While gaps persist in some regions due to varying religious beliefs such as the Middle East and Northern Africa.
+                In other regions such as South Asia and Sub-Saharan Africa large population growth continues to contribute to
+                stagnant yield growth. While the total number of Goats, Sheep, Cattle continue to grow at rapid rates
+                in these regions. 
+              </p>
+            </div>
+          </Step>
+          <Step data={3} key={6}>
             <div
               style={{
                 padding: "40vh 0",
@@ -392,16 +439,74 @@ function Production() {
               }}
             >
               <p>
-                As it currently stands the Meat & Dairy Industry is set to
-                produce approximately 811 billion tons of emissions between 2020
-                and 2100. With Meat and Dairy accounting for around 14.5% of all
-                emissions and more than half of all global food emissions, this
-                alone will push us past the 1.5°C limit. Meat and Dairy
-                Emissions alone set up a future where the Paris Climate Accords
-                are never met.
+                By the 2050s Sub-Saharan Africa surpases High Income Countries in Poultry production. For South Asia and Sub-Saharan Africa in many scenarios growth rates for meat yields continue to be stagnant. 
+                High Income countries continue to remain as one of the largest producers of Poultry and Pigs while
+                only accounting for 13% of the World Population.
               </p>
             </div>
           </Step>
+          <Step data={3} key={7}>
+            <div
+              style={{
+                padding: "40vh 0",
+                margin: "25vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                In regions such as South Asia and Sub-Saharan Africa billions of people are stuck working in subsistance farming.
+                While other regions industrialize South Asia and Sub-Saharan Africa are left behind. Due to the methods involved
+                in subsistance farming they are often some of the worst greenhouse emitters. 
+              </p>
+            </div>
+          </Step>     
+          <Step data={3} key={8}>
+            <div
+              style={{
+                padding: "40vh 0",
+                margin: "25vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                Developments in all scenarios showcase a level of inequality in who is producing the most.
+                Wealthier nations are producing far more meat per capita than others. While in developing economies
+                it is the poorest who are left in poverty like conditions struggling to survive.
+              </p>
+            </div>
+          </Step>
+          <Step data={3} key={9}>
+            <div
+              style={{
+                padding: "40vh 0",
+                margin: "25vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                The rate of efficency for meat yields for many regions have increased to rates similar of those of developed economies in 2012.
+                This comes with additional costs often not seen due to the rise of factory farming in these regions. 
+                While it can allow for the intermobility of many of these farmers into working class jobs it often sets up
+                inhumane conditions for animals in these farms.
+              </p>
+            </div>
+          </Step> 
+          <Step data={3} key={10}>
+            <div
+              style={{
+                padding: "40vh 0",
+                margin: "25vh 0",
+                opacity: 0.99,
+              }}
+            >
+              <p>
+                Is it really possible to reduce the amount of animal emissions? For the world to 
+                stay under the 1.5c limit it would require a significant shift in many parts of the world.
+                While many parts of the world could reduce the amount of animals they produce 
+                for others it can be a case of starvation and food security.
+              </p>
+            </div>
+          </Step>                                           
         </Scrollama>
       </div>
     </Container>
