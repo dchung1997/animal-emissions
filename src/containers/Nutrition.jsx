@@ -233,9 +233,9 @@ function Nutrition() {
               }}
             >
               <p>
-                However at a regional level where insecurity occurred and the rate differed by region.
-                While in places such as Sub-Saharan Africa a continual trend upward can be seen. In others
-                it tended to be sharp increases or decreases accompanying with a plateau. This is likely
+                However at a regional level where food insecurity occurred and the rate differed by region.
+                While in places such as Sub-Saharan Africa show a continual trend upward can be seen. In others
+                it tended to be sharp increases or decreases accompanyed by a plateau. This is likely
                 due unequal development of economies in the region along with localized issues.
               </p>
             </div>
@@ -248,7 +248,9 @@ function Nutrition() {
               }}
             >
               <p>
-                The UN estimates that approximately 
+                The UN estimates that there will be an approximate 60% increase in food demand by 2050.
+                With an estimated 9.6 Billion People, the number of people living in severe food insecurity
+                will be up to 1.36 billion. 
               </p>
             </div>
           </Step>                                    
