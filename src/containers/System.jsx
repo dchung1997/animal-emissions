@@ -43,9 +43,9 @@ function System() {
               >
                 <p>
                   Under the Climate Paris Accords 195 of the 196 nation states represented in the UN came to an agreement 
-                  of limiting global emissions to just under 1.5°C. An ambition target set by the nations around the world. However, as of 2024
+                  of limiting global emissions to just under 1.5°C. An ambitious target set by the nations around the world. However, as of 2024
                   no major country has come close to reaching this target.
-                  It's estimated that order for there to be a 67% chance of staying under the 1.5°C limit. Total global emissions from 2020-2100 would need to stay under 500 billion tons of CO2 eq. (Gt CO2eq.)
+                  It's estimated that in order for there to be a 67% chance of staying under the 1.5°C limit. Total global emissions from 2020-2100 would need to stay under 500 billion tons of CO2 eq. (Gt CO2eq.)
                   As of 2024 most scientists predict that we will pass this metric within the next 5 years.
                 </p>                
               </div>
