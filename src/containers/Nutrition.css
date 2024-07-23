@@ -12,6 +12,14 @@
     padding-top: 2.5vh;
 }
 
+#nutrition svg {
+    font-size: 24px;
+}
+
+#nutrition .sampleScroller {
+    margin-top: -40vh;
+}
+
 @media (max-width: 1300px) {
  
     #nutrition h1 {

@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import System from './containers/System';
 import Production from './containers/Production';
 import Nutrition from './containers/Nutrition';
-import Groupings from './containers/Groupings';
 
 import './App.css';
 

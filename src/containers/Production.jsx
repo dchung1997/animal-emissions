@@ -484,7 +484,7 @@ function Production() {
               }}
             >
               <p>
-                The rate of efficency for meat yields for many regions have increased to rates similar of those of developed economies in 2012.
+                The rate of efficency for meat yields for many regions have increased to rates similar to those of developed economies in 2012.
                 This comes with additional costs often not seen due to the rise of factory farming in these regions. 
                 While it can allow for the intermobility of many of these farmers into working class jobs it often sets up
                 inhumane conditions for animals in these farms.
@@ -501,7 +501,7 @@ function Production() {
             >
               <p>
                 Is it really possible to reduce the amount of animal emissions? For the world to 
-                stay under the 1.5c limit it would require a significant shift in many parts of the world.
+                stay under the 1.5°C limit it would require a significant shift in many parts of the world.
                 While many parts of the world could reduce the amount of animals they produce 
                 for others it can be a case of starvation and food security.
               </p>
